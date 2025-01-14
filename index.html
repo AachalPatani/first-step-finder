@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstStepFinder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<section id="logo" style="padding: 20px;">
+  <h1 class="logo-text">FirstStepFinder</h1>
+</section>
+<hr id="hr1">
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="loging.html">Login</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<script>
+    let MySlides = ['air.jpg', 'ramkund.jpg', 'triambak.jpg', 'air.jpg', 'triambak.jpg', 'ramkund.jpg'];
+    let Slide = 0;
+
+    function ShowSlides(SlideNumber) {
+        Slide = Slide + SlideNumber;
+        if (Slide > MySlides.length - 1) {
+            Slide = 0;
+        }
+        if (Slide < 0) {
+            Slide = MySlides.length - 1;
+        }
+        document.getElementById('DisplaySlide').src = MySlides[Slide];
+    }
+</script>
+
+<div>
+    <center>
+        <img src="air.jpg" id="DisplaySlide" width="100%" height="300" /><br>
+        <button onclick="ShowSlides(-1)" id="back"><</button>
+        <button onclick="ShowSlides(1)" id="for">></button>
+    </center>
+</div>
+<div class="background-image">
+<div class="divmain">
+  <a href="pg2.html"><div class="img img1"></div></a>
+  <a href="rk.html"><div class="img img2"></div></a>
+  <a href="C:\Users\Lenovo\Documents\PBL\jailroad - Copy\Jailroad.html"><div class="img img3"></div></a>
+  <a href="panch.html"><div class="img img4"></div></a>
+</div>
+<div>
+
+<div id="names"><p id="place1">College Road</p><p id="place2">Ravivar Karanja</p><p id="place3">Jail Road</p><p id="place4">Panchavati</p></div>
+<hr id="hr2">
+<h2 style="padding: 20px;">Reviews</h2>
+<section id="reviews">
+   <div class="div1">
+      <div class="review">
+          <h3>Shravani Pawar</h3>
+          <p>This is very nice website</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+          </div>
+      </div>
+      <div class="review">
+          <h3>Ajinkya Patil</h3>
+          <p>Nice Images used :)</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+          </div>
+    </div>
+    </div>
+
+
+    <div class="div1">
+      <div class="review">
+          <h3>Abhishek</h3>
+          <p>nice</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+          </div>
+      </div>
+      <div class="review">
+          <h3>Aachal Patani</h3>
+          <p>Took too long to respond :(</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+          </div>
+    </div>
+    </div>
+
+    <div class="div1">
+      <div class="review">
+          <h3>Someone</h3>
+          <p>Nice colors used</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+          </div>
+      </div>
+      <div class="review">
+          <h3>Explorer_xyz</h3>
+          <p>Nice</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+          </div>
+    </div>
+    </div>
+
+    <div class="div1">
+      <div class="review">
+          <h3>Shahrukh khan</h3>
+          <p>Very informative !</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+          </div>
+      </div>
+      <div class="review">
+          <h3>Alia bhatt</h3>
+          <p>Nice...planning to visit nashik with raha and ranbir</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+          </div>
+    </div>
+    </div>
+
+    <div class="div1">
+      <div class="review">
+          <h3>Mukesh ambani</h3>
+          <p>So great...</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+          </div>
+      </div>
+      <div class="review">
+          <h3>Salman Khan</h3>
+          <p>Nice website</p>
+          <div class="stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+          </div>
+    </div>
+    </div>
+</section>
+<hr id="hr3">
+<section id="about" >
+    <h2 style="padding: 20px;">About Us</h2>
+    <p id="aboutp" style="text-align: center; ">Welcome to our website dedicated to helping new visitors and students explore the beautiful city of Nashik!
+
+<p id="aboutp2" style="text-align: center; padding:20px">Nestled in the heart of Maharashtra, Nashik is not only known for its rich cultural heritage but also for its vibrant atmosphere and diverse attractions. Whether you're a history enthusiast, a nature lover, or a foodie eager to explore new culinary delights, Nashik has something to offer everyone.
+
+Our website serves as your comprehensive guide to navigating this dynamic city. We provide detailed information about various places of interest, including historical landmarks, religious sites, scenic spots, and culinary hotspots. Whether you're intrigued by the ancient temples and forts that dot the landscape or eager to sample the renowned wines for which Nashik is famous, we've got you covered.
+
+From the iconic College road to the serene tranquility of the Ramkund, there's no shortage of experiences waiting to be discovered in Nashik. Whether you're planning a weekend getaway or an extended stay, our website is here to help you make the most of your time in this vibrant city.</p>
+
+<p id="aboutp3" style="text-align: center; padding: 20px;">We strive to offer up-to-date information, insider tips, and recommendations to ensure that your visit to Nashik is unforgettable. Explore our website, plan your itinerary, and embark on a journey of discovery through the sights, sounds, and flavors of Nashik.
+
+Thank you for visiting, and we hope our website helps you uncover the many wonders of this enchanting city. Enjoy your exploration of Nashik</p></p>
+
+</section>
+<h2 style="padding: 20px;">Contact Us</h2>
+<section id="contact">
+    <div class="email">
+    <p>Email us at : xyz@gmail.com</p>
+    <p>Email us at : xyz@gmail.com</p>
+    <p>Email us at : xyz@gmail.com</p>
+    </div>
+    
+    <div class="Whatsapp">
+    <p>Whatsapp us on : XXXXX0098</p>
+    <p>Whatsapp us on : XXXXX0098</p>
+    <p>Whatsapp us on : XXXXX0098</p>
+    </div>
+
+    <div class="insta">
+    <p>Insta : @first_step_finder</p>
+    <p>Insta : @first_step_finder</p>
+    <p>Insta : @first_step_finder</p>
+    </div>
+
+</section>
+</div>
+</body>
+</html>

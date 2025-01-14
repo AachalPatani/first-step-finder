@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="shortcut icon" href="favi.png">
+    <link rel="stylesheet" type="text/css" href="style5.css">
+    <script src="https://kit.fontawesome.com/bfb815c3b7.js" crossorigin="anonymous"></script>
+  <!-- action="process_form.php"  --> 
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            
+            <h1 id="title"><i class="fa-solid fa-cart-flatbed-suitcase"></i> Sign up for step-finder</h1>
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" name="fname">
+                    </div>
+
+                    <div class="input-field" id="traval">
+                        <i class="fa-solid fa-check"></i>
+                        <input type="text" placeholder="Travallar or Student" name="traval">
+                    </div>
+
+                    <div class="input-field" id="pho">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" placeholder="123456789" name="phone">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="email" name="email">
+                    </div>
+                    
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="password" name="password">
+                    </div>
+
+                    <div class="btn-field">
+                        <button type="button" id="signupBtn">Sign up Form</button>
+                        <button type="button" id="signinBtn" class="disable">Sign in Form</button>
+    
+                        <button type="submit" id="Submit" class="disable">Submit Form</button>
+                    </div>
+                    
+                   
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <!-- <script type="text/javascript" src="work.js"></script> -->
+</body>
+</html>
